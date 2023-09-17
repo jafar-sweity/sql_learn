@@ -1,0 +1,59 @@
+# SQL Course - Part 5: Types of Basic Subqueries and CASE Statements
+
+## Types of Basic Subqueries
+
+- CASE Statements:
+  - Contains WHEN, THEN, ELSE, END.
+
+## Where Are the Subqueries
+
+- Subqueries can be in any part of a query and can return various types of information.
+
+## Why Subqueries
+
+- Comparing groups to summarized values.
+- Reshaping data.
+- Combining data that cannot be joined.
+
+## Simple Subqueries
+
+- Can be evaluated independently from the outer query.
+
+## Subqueries in the WHERE Clause
+
+- Used for filtering based on subquery results.
+
+## Subqueries in FROM
+
+- Restructure and transform your data.
+  - Transforming data from long to wide before selecting.
+  - Prefiltering data.
+
+## Subqueries in SELECT
+
+- Used to return a single, aggregate value.
+- Used in mathematical calculations.
+
+## Correlated Subquery
+
+- Simple Subquery: Can be run independently from the main query.
+- Evaluated once in the whole query.
+- Correlated Subquery: Everything is dependent, evaluated in loops, significantly slowing query runtime.
+
+## Nested Subqueries
+
+## Common Table Expression (CTE)
+
+- A table declared before the main query.
+- Named and referenced later in the FROM statement.
+- Improves query performance and organization of queries.
+- Can reference other CTEs.
+
+## Differentiating Techniques
+
+- Joins: Combine tables, simple operations/aggregations.
+- Correlated Subqueries: Match subqueries & tables, avoid join limits, but can have high processing time.
+- Multiple/Nested Subqueries: Multi-step transformations, improve accuracy and reproducibility.
+- Common Table Expressions: Organize subqueries sequentially, can reference other CTEs.
+
+## So Which Do I Use?
